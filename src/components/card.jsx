@@ -2,9 +2,9 @@ import PropTypes from 'prop-types';
 
 const Card = ({ imageUrl, title, description}) => {
   return (
-    <div className="my-6 rounded-lg border-[1px] border-neutral-800 p-4 text-white transition-transform hover:scale-105">
+    <div className="my-6 w-full rounded-lg border-[1px] border-neutral-800 p-3 text-white transition-transform hover:scale-105">
       <img
-        className="rounded-lg w-full max-h-72 object-cover"
+        className="rounded-lg h-fit lg:max-h-[300px] object-cover mx-auto w-full"
         src={imageUrl}
         alt={title}
       />
