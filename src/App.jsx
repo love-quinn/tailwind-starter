@@ -7,9 +7,9 @@ function App() {
     <div className="w-full px-10">
       <Header />
 
-      <div className="mt-16 w-full text-white lg:px-48">
-        <span className="flex gap-2 items-center w-fit rounded-lg border-[1px] border-neutral-800 p-2">
-          <StretchHorizontal size={18}/>
+      <div className="mt-16 hidden w-full text-white lg:block lg:px-48">
+        <span className="flex w-fit items-center gap-2 rounded-lg border-[1px] border-neutral-800 p-2">
+          <StretchHorizontal size={18} />
           Todos os itens
         </span>
       </div>
